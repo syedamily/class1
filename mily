@@ -1,0 +1,94 @@
+//contributor
+<?php
+$num1 =23;
+$num2 =31;
+
+ echo $num1+ $num2;
+ echo "<br>";
+ echo $num1-$num2;
+ echo "<br>";
+ echo $num1*$num2;
+ echo "<br>";
+ echo $num1/$num2;
+
+ ?>
+ //geaterthenlessthen
+ <?php
+$a =10;
+$b =12;
+echo $a < $b;
+echo "<br>";
+echo $a > $b  ;
+echo "<br>";
+
+echo $a <= $b;
+echo "<br>";
+echo $a >= $b;
+echo "<br>";
+echo $a == $b;
+echo "<br>";
+echo $a != $b;
+
+?>
+
+//login
+<?php
+$username = "jhjkk";
+if ($username == 'jhjkk'){
+    echo "Login Sucess";
+
+}
+else {
+    echo "Invalid Username";
+}
+?>
+
+//strlen
+<?php
+$name = "Tarek";
+echo strlen($name);
+
+
+?>
+
+//revers
+<?php
+$name = "marufa hoque";
+echo strrev($name);
+?>
+
+
+//power
+<?php
+$num1 = "10";
+$num2  = "20";
+echo $num1 ** $num2;
+?>
+
+//roundandabs
+<?php
+$chocolate =64.25;
+echo round($chocolate);
+echo"<br>";
+$mybuget = 45.38;
+echo abs($mybuget);
+echo"<br>";
+$mynum =65.35;
+$toint = (int)$mynum;
+echo"<br>";
+echo $toint;
+?>
+
+
+//gater then less then using if else
+<?php
+$num1 =61;
+$num2 =52;
+if($num1 > $num2){
+    echo "This term is valid";
+} else{
+    echo "This term in not valid";
+}
+?>
+
+
